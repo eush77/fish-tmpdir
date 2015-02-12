@@ -1,9 +1,12 @@
 function tmpdir --description "cd into a fresh, one-time temporary directory"
-  if not set --global --query TMPDIR_TAB
+  if set --global --query TMPDIR_TAB
+    cd $TMPDIR_TAB
+    rm -- {.*,*}
+  else
     mkdir -p /tmp/tmpdir
-    set --global --export TMPDIR_TAB (mktemp -d /tmp/tmpdir/XXXXXX)
+    set --global TMPDIR_TAB (mktemp -d /tmp/tmpdir/XXXXXX)
+    cd $TMPDIR_TAB
   end
-  cd $TMPDIR_TAB
 end
 
 
