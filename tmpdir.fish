@@ -1,5 +1,3 @@
-#!/usr/bin/env fish
-
 function tmpdir
   if not set --global --query TMPDIR_TAB
     set --global --export TMPDIR_TAB (mkdir -p /tmp/tmpdir; and mktemp -d /tmp/tmpdir/XXXXXX)
