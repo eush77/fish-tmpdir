@@ -12,7 +12,9 @@ Based on the [Bash version](https://github.com/mafintosh/tmpdir-tab) by @mafinto
 
 ## Install
 
-Put the script to your `~/.config/fish/functions/` or source it elsewise.
+[![npm](https://nodei.co/npm/fish-tmpdir.png)](https://nodei.co/npm/fish-tmpdir/)
+
+or simply put the script to your `~/.config/fish/functions/` or source it elsewise.
 
 ## License
 

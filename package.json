@@ -4,8 +4,9 @@
   "description": "cd into a fresh, one-time temporary directory, in Fish",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
-  "bin": {
-    "tmpdir": "functions/tmpdir.fish"
+  "preferGlobal": true,
+  "scripts": {
+    "postinstall": "fish-install functions"
   },
   "homepage": "https://github.com/eush77/fish-tmpdir",
   "repository": {
@@ -24,6 +25,8 @@
     "spawn",
     "subshell"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "fish-install": "^0.1.0"
+  },
   "devDependencies": {}
 }
