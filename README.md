@@ -1,8 +1,8 @@
-# tmpdir-tab.fish
+# fish-tmpdir
 
-[Fish](http://fishshell.com/) port of [tmpdir-tab](https://github.com/mafintosh/tmpdir-tab).
+[Fish](http://fishshell.com/) function that creates a temporary directory, `cd`s into it, and wipes it out when the shell exits.
 
-It creates a temporary directory, `cd`s into it, and wipes it out when the shell exits.
+Based on the [Bash version](https://github.com/mafintosh/tmpdir-tab) by @mafintosh.
 
 ## CLI
 

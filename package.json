@@ -1,27 +1,27 @@
 {
-  "name": "tmpdir-tab.fish",
+  "name": "fish-tmpdir",
   "version": "0.1.0",
-  "description": "cd into a fresh, one-time temporary directory, with Fish",
+  "description": "cd into a fresh, one-time temporary directory, in Fish",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
   "bin": {
     "tmpdir": "functions/tmpdir.fish"
   },
-  "homepage": "https://github.com/eush77/tmpdir-tab.fish",
+  "homepage": "https://github.com/eush77/fish-tmpdir",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eush77/tmpdir-tab.fish"
+    "url": "https://github.com/eush77/fish-tmpdir"
   },
   "bugs": {
-    "url": "https://github.com/eush77/tmpdir-tab.fish/issues"
+    "url": "https://github.com/eush77/fish-tmpdir/issues"
   },
   "keywords": [
     "fish",
-    "tmpdir-tab",
     "tmpdir",
     "tmp",
     "temporary",
     "directory",
+    "spawn",
     "subshell"
   ],
   "dependencies": {},
