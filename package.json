@@ -6,7 +6,8 @@
   "license": "MIT",
   "preferGlobal": true,
   "scripts": {
-    "postinstall": "fish-install functions"
+    "install": "fish-install functions",
+    "uninstall": "fish-install remove functions"
   },
   "homepage": "https://github.com/eush77/fish-tmpdir",
   "repository": {
@@ -26,7 +27,7 @@
     "subshell"
   ],
   "dependencies": {
-    "fish-install": "^0.1.0"
+    "fish-install": "^0.2.0"
   },
   "devDependencies": {}
 }
