@@ -1,6 +1,6 @@
 {
   "name": "fish-tmpdir",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "cd into a fresh, one-time temporary directory, in Fish",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
